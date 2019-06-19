@@ -17,7 +17,6 @@ def key_for_min_value(name_hash)
   print array_of_values
   print array_of_keys
   array_of_keys[2]
-    array_of_keys[0]
 
   
 end
