@@ -12,5 +12,5 @@ def key_for_min_value(name_hash)
     elsif value < lowest_value
     lowest_value = value
     key_for_min_ = key
-    
+  end  
 end
