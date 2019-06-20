@@ -6,13 +6,9 @@ def key_for_min_value(name_hash)
   lowest_value = nil
   array_of_values = []
   array_of_keys = []
-  if name_hash == {}
-    nil
   else name_hash.each do |key, value|
-    if lowest_value == nil || if value < lowest_value
+    if lowest_value == nil || value < lowest_value
+    end
     array_of_values << value
     array_of_keys << key 
-  
-
-  
 end
