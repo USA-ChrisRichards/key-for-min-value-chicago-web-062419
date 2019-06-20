@@ -4,9 +4,9 @@
 def key_for_min_value(name_hash)
   key_for_min_ = nil
   lowest_value = nil
-  
-  if name_hash == {}
-    nil
+  array_of_values = []
+  array_of_keys = []
+
   else name_hash.each do |key, value|
     array_of_values << value
     array_of_keys << key 
