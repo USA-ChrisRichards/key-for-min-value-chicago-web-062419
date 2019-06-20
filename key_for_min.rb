@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   key_for_min_ = nil
-  array_of_keys = []
+  lowest_value = nil
   
   if name_hash == {}
     nil
