@@ -11,6 +11,6 @@ def key_for_min_value(name_hash)
       nil
     elsif value < lowest_value
     lowest_value = value
-    array_of_values << value
-    array_of_keys << key 
+    key_for_min_ = key
+    
 end
